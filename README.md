@@ -1,16 +1,14 @@
-# firebase_login_app
+# Login App
 
-A new Flutter project.
+A Flutter app implementing email/password authentication with Firebase: login, registration, and forgot-password screens, an auth gate that routes users based on sign-in state, and a get_user service for fetching the current user's profile data.
 
-## Getting Started
+**Tech stack:** Flutter / Dart, Firebase (Auth + Firestore)
 
-This project is a starting point for a Flutter application.
+**How to run:**
+```
+flutter pub get
+flutter run
+```
+Note: you need a `google-services.json` (Android) / Firebase config with your own project settings before auth will work.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Status:** Standard auth-tutorial build; solid as a reusable auth scaffold.
